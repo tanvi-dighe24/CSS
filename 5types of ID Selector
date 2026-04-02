@@ -1,0 +1,28 @@
+/* Universal selector(*) */
+*{
+    border: 2px solid blue;
+}
+
+/* id selector(#) */
+#demo{
+    color: brown;
+}
+
+/* class selector(.) */
+.para{
+    background-color: aquamarine;
+}
+
+.para1{
+    color: red;
+}
+
+/* element selector(tagname) */
+button{
+    background-color: aqua;
+}
+
+/* grouping selector(,) : group one or more simple selector and we will target */
+#demo,.para,button{
+    font-size: 30px;
+}
