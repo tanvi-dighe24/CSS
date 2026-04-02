@@ -1,0 +1,42 @@
+#index.html file:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        p{
+            color: red;
+            background-color: lawngreen;
+        }
+        h1{
+            background-color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">    #for linking style.css  with inddex.html file
+</head>
+<body>
+    
+    <!-- 1.Inline CSS -->
+    <!-- <h2 style="color: darkcyan;">Good Evening...!</h2> -->
+
+    <!-- 2.Internal CSS -->
+    <!-- <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- 3.External CSS -->
+    <!-- <h1>Have a great sleep....</h1> -->
+
+    <!-- inline>depends(updated) -->
+    <h1 style="background-color: red;">Let's understand the priority...!</h1>
+
+</body>
+</html> 
+
+#style.css
+h1{
+    color: blue;
+    background-color: yellow;
+}
