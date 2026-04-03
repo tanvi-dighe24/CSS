@@ -1,3 +1,12 @@
+-We will combine and target the elements
+#Types of combinator selectors
+I.Descendent selector(space)
+II.Child selector(>)
+III.Adjacent sibling selector(+)
+IV.General sibling selector(~)
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
