@@ -1,3 +1,45 @@
+A CSS pseudo-class is a keyword added to a selector that specify a special state of the selected element.
+For Example: It can be used to
+•Style an element when a user mouses over it
+•Style visited and unvisited links differently
+•Style an element when it gets focus
+•Symbol for pseudo class selector is ‘:’
+Selector:pseudo-class{
+			property:value;
+                                }
+In pseudo class selectors we have 2 types
+1.structural pseudo class selectors
+-Link: used to style the unvisited link 
+-Visited: used to style the visited link
+-Active: used to style the active link
+-Focus: used to style the text filed when we focus that 
+-Hover: used to style the element when mouse hover on the element
+
+a:hover  -  style the element when mouse hover on the element
+a:link -  style the unvisited link 
+a:visited -  style the unvisited link 
+a:active – style the active link
+input:focus – style the focused text field 
+
+2.dynamic pseudo class selectors
+•first-child
+•last-child
+•nth-child
+The :first-child pseudo-class matches a specified element that is the first child of another element. 
+The :last-child pseudo-class matches a specified element that is the last child of another element. 
+The :nth-child(n) selector matches every element that is the nth child of its parent.
+We can target only even children using nth-child() by passing even or 2n in parenthesis
+We can target only odd children using nth-child() by passing odd or 2n+1 in parenthesis
+Selector:nth-child(even){                Selector:nth-child(even){
+Property                                                       Property
+}                                                                }
+
+n can be a number, a keyword (odd or even), or a formula (like an + b).
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
