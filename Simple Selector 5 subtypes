@@ -1,8 +1,12 @@
-1
-2
-3
-4
-5
+I.Id selector  (#)
+II.Class selector  (.)
+III.Universal Selector  (*)
+IV.Element Selector  (tag)
+V.Grouping Selector(,)
+
+
+
+
 
 
 
