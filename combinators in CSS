@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMBINATORS</title>
+    <link rel="stylesheet" href="./combinators.css">
+</head>
+<body>
+    <!-- 1.descendent selector(space) : to target all the children of the particular parent / target both direct and indirect children -->
+
+    <!-- child selector(>) : target only direct children of the particular parent -->
+    <!-- <section id="img_container">
+        <img src="https://th.bing.com/th/id/OIP.GLZsDcilUmzmOlPHr7QO7gHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+        <div>
+            <img src="https://wallpaperaccess.com/full/1700246.jpg" alt="">
+        </div>
+        <img src="https://wallpaperaccess.com/full/2492034.jpg" alt="">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.VsW318FodiIPAI7Nk4YzRgHaEr?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+    </section>
+ -->
+
+    <!-- 3.Adjecent sibling selector(+) : to target adjecent sibling of the particular element-->
+
+    <!-- 4.General sibling selector(~) : to target all the siblings of particular element -->
+    
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button>click</button>
+    <button>click</button>
+    <button>click</button>
+    <button>click</button>
+
+</body>
+</html> 
