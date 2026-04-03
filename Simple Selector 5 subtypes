@@ -4,7 +4,42 @@ III.Universal Selector  (*)
 IV.Element Selector  (tag)
 V.Grouping Selector(,)
 
+1.ID SELECTOR (#)
+-Unique id attribute within the page is selected
+-Core attribute selector
+-Selected by symbol “#” followed by id name
+-SYNTAX:   #id_name{
+                                                css  properties
+                              
+                                                        }
+2. CLASS SELECTOR (.)
+-Core attribute selector ,with specific class.
+-The character to access in css file “  .  “
+-Multiple class name can be called using  comma
+                SYNTAX:   .   class _ name{
+                                               /* css  properties*/
+                                                                                     }
+3. UNIVERSAL SELECTOR(*)
+-Select all elements in html page.
+-All the elements within a body tag.
+-Symbol of selector:  “ * “
+                                 SYNTAX:
+                                         *{
+                                                        properties 
+ }
 
+4. TYPE/ ELEMENT SELECTOR(tagname) 
+-Selects particular element with specified tagname.
+-Call by type of tag.
+                  SYNTAX:
+                            element name{
+                                                                 properties
+                                                         }     
+5. GROUPING SELECTOR(,)
+-We can group the multiple selectors and we can do styling
+#heading,.para,button{
+Properties
+}
 
 
 
