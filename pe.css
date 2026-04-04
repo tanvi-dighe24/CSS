@@ -1,0 +1,29 @@
+/* first letter*/
+p::first-letter{
+    color:brown;
+    font-size: 80px;
+}
+
+/*first line*/
+p::first-line{
+    background-color: aquamarine;
+}
+
+/* before */
+p::before{
+    content: "Hello my cuties🥰⭐";
+}
+
+/* after */
+p::after{
+    content: "BYEEEEieee🥰⭐";
+}
+
+
+/* selection*/
+
+
+/* marker */
+ul li::marker{
+    color: blueviolet;
+}
