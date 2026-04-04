@@ -1,0 +1,30 @@
+#demo{
+    /* color: red;    */
+    /* color: #98e99e ; */
+    /* hexadecimal(6),#(0-9a-f) */
+    /* color: rgb(234, 34, 134) ; */
+    color: rgba(100, 200, 10, 0.8);
+    text-align: center;
+    /* left/right/center/justify */
+    text-transform: capitalize;
+    /* uppercase/lowercase/capitalize */
+    text-shadow: 2px 1px 4px rgb(0, 255, 38) ;
+    /* x-axis y-axis blurness color */
+
+    /* text-decoration: ; */
+    /* text-decoration-line: overline; */
+    /* underline/overline/line-through */
+    /* text-decoration-style: double ; */
+    /* solid/dotted/dashed/double/wavy */
+    /* text-decoration-color: red; */
+    /* text-decoration-thickness: 1px; */
+    text-decoration: 2px underline dotted dodgerblue;
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-indent: 300px;
+} 
