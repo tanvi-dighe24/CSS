@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    /* background-color: plum; */
+    /* background-image: url('https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?cs=srgb&dl=nature-purple-petals-36753.jpg&fm=jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to right bottom,black,red,green,yellow); */
+    background-image: radial-gradient(circle,red,green,yellow);
+}
+#demo{
+    /* color: red;    */
+    /* color: #98e99e ; */
+    /* hexadecimal(6),#(0-9a-f) */
+    /* color: rgb(234, 34, 134) ; */
+    color: rgba(100, 200, 10, 0.8);
+    text-align: center;
+    /* left/right/center/justify */
+    text-transform: capitalize;
+    /* uppercase/lowercase/capitalize */
+    text-shadow: 2px 1px 4px rgb(0, 255, 38) ;
+    /* x-axis y-axis blurness color */
+
+    /* text-decoration: ; */
+    /* text-decoration-line: overline; */
+    /* underline/overline/line-through */
+    /* text-decoration-style: double ; */
+    /* solid/dotted/dashed/double/wavy */
+    /* text-decoration-color: red; */
+    /* text-decoration-thickness: 1px; */
+    text-decoration: 2px underline dotted dodgerblue;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-indent: 300px;
+
+    font-size: 18px;
+    /* font-style: italic; */
+    /* font-weight: 700; */
+    font-family: "Mulish", sans-serif;
+} 
+
+Apr 06 - 9:05 pm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <link rel="stylesheet" href="./box.css">
+</head>
+<body>
+    <h2>CSS box model</h2>
+</body>
+</html> 
