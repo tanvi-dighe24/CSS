@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <link rel="stylesheet" href="./card.css">
+</head>
+<body>
+    <section id="id_card">
+        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg" alt="err">
+        <h3>Abhishek</h3>
+        <h3>TCS3452</h3>
+        <h3>Blood grp : O<sup>+</sup></h3>
+    </section>
+</body>
+</html> 
+
+
+#....
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#id_card{
+    margin: auto;
+    color: white;
+    border: 1px solid ;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom,aqua,black);
+}
+#id_card img{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+} 
