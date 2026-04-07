@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBLAYOUT</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: aqua;
+            height: 80px;
+            width: 100%;
+        }
+        header{
+            background-color: yellowgreen;
+            height: 100px;
+            width: 100%;
+        }
+        aside{
+            background-color: antiquewhite;
+            height: 600px;
+            width: 30%;
+        }
+        main{
+            background-color: gold;
+            height: 600px;
+            width: 70%;
+            position: absolute;
+            top: 180px;
+            left: 30%;
+        }
+        footer{
+            background-color: darkred;
+            height: 100px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>navbar</nav>
+    <header>header</header>
+    <aside>side bar</aside>
+    <main>body area</main>
+    <footer>footer</footer>
+</body>
+</html> 
