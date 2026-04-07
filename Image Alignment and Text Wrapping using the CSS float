@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLOAT PROP</title>
+    <link rel="stylesheet" href="./flaot.css">
+</head>
+<body>
+    <img src="../ASSETS/beautiful-flowers-pictures-free-download.webp" alt="err">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae similique officia iusto ducimus eveniet repellendus ipsa corporis quisquam laborum soluta provident, distinctio porro adipisci ex corrupti minus repellat expedita dolor minima doloribus repudiandae saepe sequi. Provident, repudiandae. Dicta culpa officia distinctio dolores animi, maxime, accusantium doloremque voluptatibus illo nam minima.</p>
+</body>
+</html> 
+
+#...
+Layout Positioning and Element Transparency:
+img{
+    height: 200px;
+    width: 300px;
+    float: none;
+    /* right/left/none */
+    opacity: 0.5;
+}
+
+p{
+    background-color: aqua;
+    width: 500px;
+    float: right;
+    opacity: 0.8;
+} 
