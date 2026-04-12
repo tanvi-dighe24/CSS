@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 20px;
+
+    /* transition-property:  background-color ;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: linear; */
+    /* transition:  background-color 2s 1s linear, border-radius 2s linear ; */
+    transition: transform 2s;
+    
+}
+div:hover{
+    /* background-color: blue;
+    border-radius: 50%; */
+
+    /* transform: translate(px) : move the element */
+    transform: translateX(200px);
+    transform: translateY(100px);
+    transform: translate(200px,300px);
+
+    /* transform: scale(num) : change size of an element */
+    transform: scaleX(2);
+    transform: scaleY(3);
+    transform: scale(0);
+
+    /* transform: skew(deg) : to bend the element */
+    transform: skewX(30deg);
+    transform: skewY(50deg);
+    transform: skew(50deg,40deg);
+
+    /* transform: rotate(deg) : rotate the element */
+    transform: rotate(360deg);
+
+    transform: rotate(360deg) scale(2);
+}
