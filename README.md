@@ -1,3 +1,6 @@
 -CSS : Cascading Styling Sheet
 -Mainly used for: Styling and Alignment of Webpages
 -Current Version : CSS-3 (1999)
+-Scripting language can use with the html,javascript for implementing web tech tasks.
+-We can run codes of css in code editor like VS CODE
+-CSS code file can be
